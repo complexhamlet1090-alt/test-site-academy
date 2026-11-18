@@ -1,0 +1,20 @@
+# Секреты и локальные настройки
+.env
+.env.*
+.secrets/
+*.key
+.vercel/
+
+# Локальные проверки и временные файлы
+.tmp/
+__pycache__/
+*.pyc
+preview-*.png
+
+# Исходник уже оптимизированного изображения
+assets/hero-source.png
+
+# Неиспользуемые копии начертаний: Onest — variable font
+assets/fonts/onest-medium*.woff2
+assets/fonts/onest-semibold*.woff2
+assets/fonts/onest-bold*.woff2
